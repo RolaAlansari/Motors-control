@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+         <title>Smart Methods</title>
+         <link rel="stylesheet " herf=style.css">
+
+</head>
+<body>
+<h1 style="font-size:60px;"><center> Motors Control</center></h1><br> <!-- title -->
+
+
+	
+    <div class="container">
+	
+       <form action="connected1.php" method="POST">
+        <span class="text">Motor 1</span>  <!--slider for motor1  -->
+
+         <div class="range-slide">
+             <span id="rangeValue" class="rs-label">0</span>
+               <input type="range"  name="motor1" main="0" max="180"  value="0" onChange="rangeSlide(this.value)" class="slider">
+         </div>
+		   <div class="box-minmax">
+		    <span>0</span><span>180</span>
+		  </div>
+          <script type="text/javascript"> <!-- move slider using javaScript -->
+             function rangeSlide(value){
+                document.getElementById("rangeValue").innerHTML=value;
+             }
+        </script>
+
+<span class="text">Motor2</span> <!--slider for motor2 -->
+
+
+       <div class="range-slide">
+             <span id="rangeValue1" class="rs-label">0</span>
+			 <input type="range" name="motor2" main="0" max="180"  value="0" onChange="rangeSlide1(this.value)" class="slider">
+         </div>
+		 <div class="box-minmax">
+		 <span>0</span><span>180</span>
+		 </div>
+        <script type="text/javascript"> <!-- move slider using javaScript -->
+             function rangeSlide1(value){
+                document.getElementById("rangeValue1").innerHTML=value;
+             }
+        </script>
+
+
+<span class="text">Motor3</span> <!--slider for motor3-->
+
+       <div class="range-slide">
+             <span id="rangeValue2" class="rs-label">0</span>
+			 <input type="range" id="motor33" name="motor3" main="0" max="180"  value="0" onChange="rangeSlide2(this.value)" class="slider">
+         </div>
+		 <div class="box-minmax">
+		 <span>0</span><span>180</span>
+		 </div>
+        <script type="text/javascript"> <!-- move slider using javaScript -->
+             function rangeSlide2(value){
+                document.getElementById("rangeValue2").innerHTML=value;
+             }
+        </script>
+
+<span class="text">Motor4</span> <!--slider for motor4-->
+
+       <div class="range-slide">
+             <span id="rangeValue3" class="rs-label">0</span>
+			 <input type="range" id="motor44" name="motor4" main="0" max="180"  value="0" onChange="rangeSlide3(this.value)" class="slider">
+         </div>
+		 <div class="box-minmax">
+		 <span>0</span><span>180</span>
+		 </div>
+        <script type="text/javascript"> <!-- move slider using javaScript -->
+             function rangeSlide3(value){
+                document.getElementById("rangeValue3").innerHTML=value;
+             }
+        </script>
+
+<span class="text">Motor5</span>  <!--slider for motor5 -->
+
+      <div class="range-slide">
+             <span id="rangeValue4" class="rs-label">0</span>
+			 <input type="range" id="motor55" name="motor5" main="0" max="180"  value="0" onChange="rangeSlide4(this.value)" class="slider">
+         </div>
+		 <div class="box-minmax">
+		 <span>0</span><span>180</span>
+		 </div>
+        <script type="text/javascript"> <!-- move slider using javaScript -->
+             function rangeSlide4(value){
+                document.getElementById("rangeValue4").innerHTML=value;
+             }
+        </script>
+
+<span class="text">Motor6</span>  <!--slider for motor6 -->
+
+       <div class="range-slide">
+             <span id="rangeValue5" class="rs-label">0</span>
+			 <input type="range" id="motor66" name="motor6" main="0" max="180"  value="0" onChange="rangeSlide5(this.value)" class="slider">
+         </div>
+		   <script type="text/javascript"> <!-- move slider using javaScript -->
+             function rangeSlide5(value){
+                document.getElementById("rangeValue5").innerHTML=value;
+             }
+        </script>
+		     
+		 <div class="box-minmax"> <!-- range of slider between 0 and 180 -->
+		 <span>0</span><span>180</span>
+		 </div>
+		 
+		 
+		 
+		    <input type="submit" value="Save" name="save" class="button"> <!--for button save and on-->
+			<input type="submit" value="On" name="on" class="button1">
+      
+		
+             
+    
+
+</form>
+</div>
+</body>
+</html> 
