@@ -1,0 +1,140 @@
+<style>
+
+    *{
+	    margin:0;
+	    padding:0;
+		font-family: tahoma;
+		font-size: medium;
+	}
+	
+    body{
+	   background:#f6dede;
+	   height: 100%;
+	   
+			margin=0;
+			padding=0;
+            
+
+	
+	}
+	.button{
+	   width:100px;
+	   height: 50px;
+	   background-color:pink;
+	   border-radius:20px;
+	   border: 2px solid white;
+	   padding:10px;
+	   margin:20px;
+	   position:sticky;
+	   left:10%;
+	}
+	.button:hover{
+	 background-color: #A2D9CE;
+	 }
+    .button1{
+	   width:100px;
+	   height: 50px;
+	   background-color:pink;
+	   border-radius:20px;
+	   border: 2px solid white;
+	   padding:10px;
+	   margin:2px;
+	   position:sticky;
+	   left:10%;
+	   
+	}
+	.button1:hover{
+	 background-color: #A2D9CE;
+	 }
+		
+	
+	.container{
+	        background-color: bink;
+			
+	        font-weight: normal;
+			font-size:15px;
+			letter-spacing: 2px;
+			direction: rtl; 
+			text-align:right;
+			color:‎#ccc;
+            place-items:center;
+			display: grid;
+			top:50%;
+			left:100%;
+			transform: trnslate(-50%,-50%);
+			
+			
+
+			
+    }
+	.text{
+	  color:black;
+	  font-size: 20px;
+	  font-wight: 700;
+	  letter-spacing: 1px;
+	  margin-bottom:2px;
+	  position:relative;
+	  animation: text 3s 1;
+	   
+	 
+	}
+	.title{
+	  color:white;
+	  font-size: 50px;
+	  font-wight: 700;
+	  letter-spacing: 1px;
+	  margin-bottom:50px;
+	  position:relative;
+	  text-align: left;
+	 
+	}
+	.slider{
+	       margin-top:30px;
+		   appearance: none;
+	       -webkit-appearance: none;
+			width: 150%;
+			height:20px;
+			outline: none;
+			border-radius: 50px;
+			background: white;
+			display: grid;
+			
+
+			 
+		
+    }
+    .slider::-webkit-slider-thumb{
+	  -webkit-appearance: none;
+	   appearance: none;
+	   width: 20px;
+	   height: 20px;
+	   background-color: pink;
+	   cursor: pointer;
+	   border-radius: 50px;
+    }
+	
+
+	
+	.box-minmax{
+	  margin-top: 10px;
+	  width:130px;
+	  justify-content:space-between;
+	  font-size:15px;
+	  color:#fffffff;
+	  display:flex;
+	}
+	.box-minmax span:first-child{
+	  margin-left:350px;
+	 }
+	.container .rs-label{
+		position:relative;
+		width:100%;
+		border:outset ;
+		
+		
+	
+	 }
+	
+</style>
+
+
