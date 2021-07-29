@@ -10,3 +10,6 @@
 * Javascript to move the slider range at the desired range
 * PHP to connect the arms control database with the control interface
 * Database for storing motors values
+
+## getLastDataArm:
+This file contains to restore the last value stored in the database table for "slider range" values and "on" values
